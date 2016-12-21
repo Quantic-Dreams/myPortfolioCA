@@ -1,0 +1,80 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.nav p {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  float:  right;
+}
+.nav {
+  padding: 40px;
+}
+
+.nav li {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  width: 100px;
+  height: -200px;
+  float: left;
+  text-align: middle;
+}
+
+.btn-primary {
+  background-color: red;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  //New stuff
+  position:absolute;
+  transition: .5s ease;
+  top: 50%;
+  left: 70%;
+}
+h1 {
+  color:  #FFFFFF;
+}
+
+.main h1 {
+  color: #FFFFFF;
+  font-size:  10px;
+  
+}
+
+
+.jumbotron {
+   background: url("http://tinyurl.com/zfd65vf");
+
+   padding: 450px;
+  background-size: 100% 100%;;
+ 
+}
+
+.footer {
+  background-color: white;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer p {
+  color: black;
+  position: relative;
+  left: 1072px;
+  font-size: 12px;
+}
+
+.image img {
+  float: right;
+  height: 30px;
+  width: 30px;
+  margin: 15px;
+}
+
