@@ -2,6 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+//f0f0f5
+//8585a
+.my-slider img {
+  position: center;
+}
+.my-slider {
+  background-color: blue !important;
+  padding:  50px 0;
+}
+.myspan {
+  opacity: 0.9;
+}
+.myspan  {
+  background-color: black !important;
+  
+}
+
 .nav p {
   color: black;
   font-family: 'Raleway', sans-serif;
@@ -19,9 +36,9 @@
   font-weight: 600;
   font-size: 18px;
   width: 100px;
-  height: -200px;
-  float: left;
-  text-align: middle;
+  display: inline !important;
+  margin: 10px;
+  left: 80px;
 }
 .btn-primary:hover {
     background-color: orange !important;
@@ -46,24 +63,21 @@
 
 .main h1 {
   color: #FFFFFF;
-  font-size:  20px;
+  text-align: right !important;
   
 }
 
 .jumbotron h1 {
-  background-color: white;
-  color: white;
+  color: white !important;
+  font-size:  10px;
+  text-align: right !important;
 }
 
 
 .jumbotron {
    background: url("http://tinyurl.com/zfd65vf");
-
    padding: 450px;
   background-size: 100% 100%;
-  
-  
- 
 }
 
 .footer {
@@ -84,5 +98,30 @@
   height: 30px;
   width: 30px;
   margin: 15px;
+}
+
+//unslider.css file
+.unslider{overflow:auto;margin:0;padding:0}.unslider-wrap{position:relative}.unslider-wrap.unslider-carousel>li{float:left}.unslider-vertical>ul{height:100%}.unslider-vertical li{float:none;width:100%}.unslider-fade{position:relative}.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}.unslider-fade .unslider-wrap li.unslider-active{z-index:10}.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none}.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer}.unslider-arrow.next{left:auto;right:20px}
+
+//unslider-dots.css file
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default;
 }
 
